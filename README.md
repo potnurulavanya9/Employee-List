@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### Project Screenshots (Desktop and mWeb view):
+
+<img width="1347" alt="Screen Shot 2022-02-18 at 10 02 51 PM" src="https://user-images.githubusercontent.com/77286414/154783931-de021151-8e90-4306-84b8-dd4613b7b1dd.png">
+<img width="1347" alt="Screen Shot 2022-02-18 at 10 03 14 PM" src="https://user-images.githubusercontent.com/77286414/154783934-e0d8066c-d4c4-41da-9fbf-a757a4f28dbc.png">
+<img width="1347" alt="Screen Shot 2022-02-18 at 10 02 39 PM" src="https://user-images.githubusercontent.com/77286414/154783930-e96acab1-eeb0-4f49-82b2-4435d815c59e.png">
+<img width="523" alt="Screen Shot 2022-02-18 at 10 07 07 PM" src="https://user-images.githubusercontent.com/77286414/154783936-1d3fcf02-5fc1-4d71-80bb-c6d5dcc0778e.png">
+<img width="523" alt="Screen Shot 2022-02-18 at 10 07 25 PM" src="https://user-images.githubusercontent.com/77286414/154783937-c59d6d5f-d5ee-4781-b714-0fad75d0ebe8.png">
+<img width="523" alt="Screen Shot 2022-02-18 at 10 07 41 PM" src="https://user-images.githubusercontent.com/77286414/154783938-ff19566e-48c4-4625-a116-cd123c8021b9.png">
+
+
+
+
