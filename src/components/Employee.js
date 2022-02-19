@@ -3,7 +3,7 @@ import { empData_1, empData_2 } from '../data';
 import { xmlToJson } from '../Utils';
 import './Employee.css';
 
-const Employees = () => {
+const Employee = () => {
     const [employees, setEmpList] = useState([]);
     const [finishLoad, setFinishLoad] = useState(false);
     let empList = {};
@@ -11,21 +11,20 @@ const Employees = () => {
     useEffect(() => {
         setTimeout(() => {
             setEmpList(empData_1?.person);
-        }, 2000);
+        }, 5000);
     }, [empData_1]);
 
     useEffect(() => {
         setTimeout(() => {
             setEmpList([...empData_1?.person, ...empList?.persons?.person]);
             setFinishLoad(true);
-        }, 4000);
+        }, 10000);
     }, [empList?.persons?.person]);
 
     if (typeof window != undefined && window.DOMParser) {
         const getxml = new DOMParser();
         const xmlDoc = getxml.parseFromString(empData_2, "text/xml");
         empList = xmlToJson(xmlDoc);
-        console.log(empList);
     }
 
     const parseData = (data) => {
@@ -62,4 +61,4 @@ const Employees = () => {
     );
 };
 
-export default Employees;
+export default Employee;

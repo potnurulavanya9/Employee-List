@@ -1,5 +1,5 @@
 import './App.css';
-import Employees from './components/Employee';
+import Employee from './components/Employee';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <p>Employee List</p>
       </header>
-      <Employees />
+      <Employee />
     </div>
   );
 }

@@ -1,3 +1,4 @@
+//EXTERNAL LIBRARY TO PARSE XML TO JSON OBJECT
 export const xmlToJson = (xml) => {
     var js_obj = {};
     if (!xml) return null;
